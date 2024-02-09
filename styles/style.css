@@ -1,0 +1,81 @@
+html,
+.new-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    height: 100vh;
+    color: #252323;
+}
+
+body {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 40px 30px;
+    border-radius: 5px;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#quote {
+    margin: 10px 20px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+#quote-text {
+    /* background-color: #eee; */
+    padding: 25px 15px;
+    border-radius: 5px;
+}
+
+#author {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.new-quote {
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+#new-quote-btn {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: border 0.35s, color 0.35s, background-color 0.35s;
+    cursor: pointer;
+}
+
+#new-quote-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+#new-quote-btn:active {
+    border: 2px solid #4361ee;
+    background-color: #4361ee;
+    color: white;
+}
